@@ -1,1 +1,4 @@
-# test26-grading-system
+# Grading system for assignment
+
+Using dependabot, it determines the student repositories where changes have occurred and creates a Pull Request to update the corresponding submodule.
+Grading tests are run on this Pull Request.

@@ -1,0 +1,7 @@
+[submodule "test26-grading-tests"]
+	path = test26-grading-tests
+	url = git@github.com:amcp-pit/test26-grading-tests.git
+[submodule "test26-spogozhev"]
+	path = test26-spogozhev
+	url = git@github.com:amcp-pit/test26-spogozhev.git
+	branch = main
