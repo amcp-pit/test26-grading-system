@@ -9,8 +9,7 @@ updates:
   - package-ecosystem: "gitsubmodule"
     directory: "/"
     schedule:
-      interval: "cron"
-      cronjob: "40 * * * *"
+      interval: "daily"
     open-pull-requests-limit: 50
     registries:
       - github
