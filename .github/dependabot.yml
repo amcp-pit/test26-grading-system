@@ -14,4 +14,4 @@ updates:
     registries:
       - github
     ignore:
-      - dependency-name: "*-grading-tests"
+      - dependency-name: "*-grading-test"
