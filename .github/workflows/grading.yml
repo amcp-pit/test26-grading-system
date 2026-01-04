@@ -20,8 +20,8 @@ jobs:
         run: git diff --name-only HEAD^
       - name: Fetch updated submodule
         run: |
-          ./scripts/fetch_submodule.sh --auth PAT --submodule "${{ env.PROBLEM }}-grading-tests"
           ./scripts/fetch_submodule.sh --auth PAT --submodule "$(git diff --name-only HEAD^)"
+          ./scripts/fetch_submodule.sh --auth PAT --submodule "${{ env.PROBLEM }}-grading-tests"
         env:
           AUTH_TOKEN: ${{ secrets.GH_DB_TOKEN }}
       - name: Check repository clean
