@@ -4,7 +4,7 @@ registries:
     type: git
     url: https://github.com
     username: x-access-token
-    password: ${{secrets.MY_GITHUB_PERSONAL_TOKEN}}
+    password: ${{secrets.GH_DB_TOKEN}}
 updates:
   - package-ecosystem: "gitsubmodule"
     directory: "/"
