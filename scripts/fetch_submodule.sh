@@ -70,6 +70,4 @@ else
 	GIT_EXTRA_CONFIGURATION+=("url.ssh://git@github.com:.insteadOf=https://github.com/")
 fi
 
-echo "${GIT_EXTRA_CONFIGURATION[@]}" submodule update --init "$SUBMODULE_NAME"
-
 git "${GIT_EXTRA_CONFIGURATION[@]}" submodule update --init "$SUBMODULE_NAME"
